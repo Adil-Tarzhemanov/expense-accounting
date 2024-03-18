@@ -1,0 +1,31 @@
+.transactionsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .manageCategories {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: gray;
+        text-align: left;
+    }
+
+    .radioInputs {
+        display: flex;
+        gap: 10px;
+        color: white;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        text-align: left;
+        color: white;
+        background: #22a34f;
+        border-radius: 3px;
+    }
+}

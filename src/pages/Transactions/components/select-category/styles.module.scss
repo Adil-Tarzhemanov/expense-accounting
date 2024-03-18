@@ -1,0 +1,17 @@
+.label {
+    .title {
+        color: white;
+    }
+
+    .select {
+        color: white;
+        min-width: 100%;
+        background: #324153;
+        border: none;
+    }
+}
+
+.validationError {
+    color: red;
+    opacity: 0.9;
+}

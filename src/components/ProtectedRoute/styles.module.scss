@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+
+    .head {
+        position: absolute;
+        color: white;
+    }
+
+    .protectionImg {
+        width: 400px;
+    }
+}

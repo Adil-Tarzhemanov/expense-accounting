@@ -1,0 +1,20 @@
+.container {
+    margin-top: 20px;
+
+    .formAdnDiagram {
+        display: flex;
+        gap: 20px;
+        min-height: 350px;
+
+        .transactionsBlock {
+            max-width: 700px;
+            width: 100%;
+            background: #1d293b;
+            border-radius: 5px;
+
+            .content {
+                padding: 20px;
+            }
+        }
+    }
+}

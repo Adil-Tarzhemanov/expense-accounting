@@ -1,0 +1,20 @@
+.titleAndInput {
+
+    .title {
+        color: white;
+    }
+
+    .titleInput {
+        color: white;
+        min-width: 100%;
+        background: #324153;
+        border: none;
+        padding-left: 5px;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+}

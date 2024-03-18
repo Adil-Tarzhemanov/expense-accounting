@@ -1,0 +1,16 @@
+.authWrap {
+    display: flex;
+    gap: 5px;
+    margin-right: 40px;
+    text-decoration: none;
+
+    .line {
+        color: white;
+    }
+
+    .authBtn {
+        color: white;
+        opacity: 0.6;
+        text-decoration: none;
+    }
+}

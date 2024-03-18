@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .head {
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        max-width: 300px;
+        width: 100%;
+
+        .inputWrapper {
+            position: relative;
+            width: 100%;
+
+            .authInput {
+                width: 100%;
+                background: inherit;
+                border-radius: 10px;
+                border: 0.2px solid rgba(grey, .2);
+                padding: 5px 10px;
+                color: white;
+                opacity: 0.8;
+            }
+
+            .eyeWrapper{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+
+                .eye {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+        .submit {
+            border-radius: 10px;
+            background: green;
+            padding: 8px 15px;
+            color: white;
+            margin-top: 10px;
+        }
+    }
+
+    .transitionWrap {
+        margin-top: 15px;
+    }
+}

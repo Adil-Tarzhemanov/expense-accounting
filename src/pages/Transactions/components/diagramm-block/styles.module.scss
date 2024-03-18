@@ -1,0 +1,88 @@
+.diagramWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    background: #1d293b;
+    border-radius: 5px;
+
+    .incomeAndExpense {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+        .incomeWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            .incomeText {
+                color: white;
+                text-transform: uppercase;
+            }
+
+            .value {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                height: 25px;
+                color: white;
+                border-radius: 2px;
+            }
+
+            .incomeValue {
+                background: #22a34f;
+            }
+
+            .expenseValue {
+                background: #fc8147;
+            }
+        }
+    }
+
+    .diagram {
+        max-width: 200px;
+    }
+
+    .designations {
+        display: flex;
+        gap: 20px;
+
+        .designation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            .square {
+                height: 10px;
+                width: 10px;
+            }
+
+            .greenSquare {
+                background: #22a34f;
+            }
+
+            .orangeSquare {
+                background: #fc8147;
+            }
+
+            .greenText {
+                color: #22a34f;
+                height: 25px;
+                font-weight: 500;
+            }
+
+            .orangeText {
+                color: #fc8147;
+                height: 25px;
+                font-weight: 500;
+            }
+        }
+    }
+}
